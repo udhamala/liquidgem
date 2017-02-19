@@ -234,7 +234,31 @@ label {
 	}
 }
 @media (max-width: 456px) {
-	#nav {
-		margin-left: 0;
+	#header {
+		display: flex;
+		flex-direction: column;
+	}
+	#header img {
+		margin: 0;
+		width: 100px;
+		height: 40px;
+
+	}
+	#nav li {
+		padding: 0;
+	}
+	.hr {
+		display: none;
+	}
+	#headingtop {
+		margin-top: 30px;
+		top: ;
+	}
+	#footer {
+		display: flex;
+		flex-direction: column;
+	}
+	#socialIcons {
+		flex-direction: row;
 	}
 }
